@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import Home from './HomePage/Home'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-white'>Altitud</h1>
+      <Home/>
     </>
   )
 }
