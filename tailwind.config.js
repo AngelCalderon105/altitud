@@ -3,7 +3,11 @@ export default {
   mode: 'jit',
   content: ["./index.html","./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
-    extend: {},
+    extend: { 
+      fontFamily: {
+      'times': ['Times New Roman', 'serif']
+    }
+  },
   },
   plugins: [],
 }
