@@ -7,30 +7,29 @@ import FormButton from '../Components/FormButton'
 
 export default function Home() {
     return (
-        <div className = 'min-h-screen mx-5'>
+        <div className = 'min-h-screen '>
         <Navbar navbarList = {["Home","Contact Us"]}/>
         
-        <div className='grid grid-cols-3 mt-24 border-2 gap-y-4 border-red-600'>
-            <div className='border-2 col-span-1'>
-            <Header />
+        <div className='grid grid-cols-1 justify-items-center mt-28 gap-y-8 z-0'>
+            <Header/>
+            <div className='  row-span-3 self-end'>
+                <img src={rocketSvg} alt="" className=''/>
             </div>
-            
-            <div className='row-span-4 col-span-2 border-2 self-end'>
-                <img src={rocketSvg} alt="" className='w-4/5 border-2 border-red-600 '/>
+            <div className=''>
+                <SubHeader text = {"Our team specializes in creating effective and engaging websites that will resonate with your audience"} />
+            </div>    
+            <div>
+            <FormButton text = "Tell us about your website"/>
             </div>
-            <div className=' border-2 w-4/5 '>
-                <div className=''>
-                    <SubHeader text = {"Our team specializes in creating effective and engaging websites that will resonate with your audience"} />
-                </div>    
-          
+            <div className=''>        
+                <ActionButton text = "Contact Us"/>   
             </div>
-            <div className='border-2 flex gap-6'>        
-                    <ActionButton text = "Contact Us"/>
-                    <FormButton text = "Tell us about your website"/>
-            </div>
-
-           
+            <a href="" className=' animate-float'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                    </svg>
+            </a>
         </div>
+        
         </div>
     )
 }

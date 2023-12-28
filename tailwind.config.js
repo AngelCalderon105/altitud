@@ -8,7 +8,11 @@ export default {
       'times': ['Times New Roman', 'serif']
     },
     colors: {
-      'primary-purple': '#9191FF'
+      'primary-purple': '#9191FF',
+      'dark-blue': '#000F26'
+    },
+    animation: {
+      'float': 'float 2s infinite',
     }
   },
   },

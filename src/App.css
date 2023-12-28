@@ -2,3 +2,15 @@ body {
   background: radial-gradient(rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
   background-repeat: no-repeat;
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
