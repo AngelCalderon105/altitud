@@ -5,7 +5,7 @@ export default function Logo() {
             <div className=''>
             <img src={cloudLogo} alt="logo" className = 'w-16'/>
             </div>
-            <h1 className='text-white text-3xl flex items-center'>Altitud</h1>
+            <h1 className='text-3xl flex items-center'>Altitud</h1>
             </div>
     )
 }
