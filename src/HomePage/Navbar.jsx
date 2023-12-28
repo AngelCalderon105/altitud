@@ -13,7 +13,7 @@ export default function NavBar({navbarList}) {
                 </svg>
             </div>
         
-            <div className=' hidden sm:flex sm:justify-between sm:w-full'>
+            <div className=' hidden md:flex md:justify-between md:w-full'>
                 <ul className='flex items-center text-lg'>
                     {navbarList.map((item,index) =>(
                     <li key = {index}> 
