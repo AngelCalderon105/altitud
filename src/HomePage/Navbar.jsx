@@ -3,7 +3,7 @@ import ActionButton from '../Components/ActionButton'
 import NavbarItem from './NavbarItem'
 export default function NavBar({navbarList}) {
     return (
-        <nav className='bg-dark-blue absolute top-0 left-0 w-full z-50'>
+        <nav className='bg-dark-blue fixed top-0 left-0 w-full z-50'>
         <div className='flex justify-center items-center md:px-5 '>
         <Logo/>
         </div>
