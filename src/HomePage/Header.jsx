@@ -1,19 +1,24 @@
-import { useState } from "react"
+import { useState, useEffect } from "react";
+
 export default function Header() {
-    const serviceList = ["SEO", "Photo Shoots", "UI/UX Design"] 
-    const [service, setService] = useState("UI/UX Design");
+    const serviceList = ["UI/UX Design", "SEO Optimization", "Photo Shoots", "Responsive Design", "Same Day Response"];
+    
     const [serviceIndex, setServiceIndex] = useState(0);
 
-    // const rotateService = () =>(setService(( )=>(
+    useEffect(() => {
+        const rotateService = () => {
+            setServiceIndex(prevIndex => (prevIndex + 1) % serviceList.length);  //modulus returns 
+        };
 
-    //     serviceList.map((elem, index) => ( serviceIndex === index ? setService((prevIndex=>( prevIndex === serviceList.length() - 1 ? 0 : prevIndex + 1 ))): null ))) ) )
-    
-    // setInterval(rotateService, 4000);
+        const intervalId = setInterval(rotateService, 4000);
 
-    return(
+        return () => clearInterval(intervalId); 
+    }, [serviceList.length]);
+
+    return (
         <div className="text-6xl">
             <h1>Launch Your Vision and Amplify <br /> Your Impact with </h1>
-            <h1 className='text-primary-purple font-bold italic'>UI/UX Designs</h1>
+            <h1 className='text-primary-purple font-bold italic transition-opacity'>{serviceList[serviceIndex]}</h1>
         </div>
-    )
+    );
 }
