@@ -21,7 +21,7 @@ export default function Home() {
             <div className='text-lg'>
             <FormButton text = "Tell us about your website"/>
             </div>
-            <div className='text-xl'>        
+            <div className='text-lg'>        
                 <ActionButton text = "Contact Us"/>   
             </div>
             <a href="" className=' animate-float'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
