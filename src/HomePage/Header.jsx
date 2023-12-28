@@ -11,7 +11,7 @@ export default function Header() {
     // setInterval(rotateService, 4000);
 
     return(
-        <div className="border-2 text-6xl">
+        <div className="text-6xl">
             <h1>Launch Your Vision and Amplify <br /> Your Impact with </h1>
             <h1 className='text-primary-purple font-bold italic'>UI/UX Designs</h1>
         </div>

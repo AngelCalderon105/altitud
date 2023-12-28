@@ -8,10 +8,10 @@ export default function Home() {
     return (
         <div className = 'min-h-screen mx-5'>
         <Navbar navbarList = {["Home","Contact Us"]}/>
-        <div className='grid grid-cols-2 grid-rows-2 border-2'>
+        <div className='grid grid-cols-2 grid-rows-2'>
             <Header />
-            <div className='row-span-2 border-2 border-red-600 '>
-                <img src={rocketSvg} alt="" className='w-full border-2'/>
+            <div className='row-span-2  '>
+                <img src={rocketSvg} alt="" className='w-full '/>
             </div>
             <div>
             <SubHeader text = {"Our team specializes in creating effective and engaging websites that will resonate with your audience"} />
