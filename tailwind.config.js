@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: { 
       fontFamily: {
-      'times': ['Times New Roman']
+      'times': ['Times New Roman', 'serif']
     },
     colors: {
       'primary-purple': '#9191FF',
