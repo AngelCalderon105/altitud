@@ -10,19 +10,23 @@ export default function Home() {
         <div className = 'min-h-screen mx-5'>
         <Navbar navbarList = {["Home","Contact Us"]}/>
         
-        <div className='grid grid-rows-2 grid-cols-2 mt-24'>
+        <div className='grid grid-cols-3 mt-24 border-2 gap-y-4 border-red-600'>
+            <div className='border-2 col-span-1'>
             <Header />
-            <div className='row-span-2  '>
-                <img src={rocketSvg} alt="" className='w-full '/>
             </div>
-            <div className='w-4/5'>
-                <div className=' my-5'>
+            
+            <div className='row-span-4 col-span-2 border-2 self-end'>
+                <img src={rocketSvg} alt="" className='w-4/5 border-2 border-red-600 '/>
+            </div>
+            <div className=' border-2 w-4/5 '>
+                <div className=''>
                     <SubHeader text = {"Our team specializes in creating effective and engaging websites that will resonate with your audience"} />
                 </div>    
-                <div className='flex justify-start gap-7'>        
+          
+            </div>
+            <div className='border-2 flex gap-6'>        
                     <ActionButton text = "Contact Us"/>
                     <FormButton text = "Tell us about your website"/>
-                </div>
             </div>
 
            
