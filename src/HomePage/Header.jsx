@@ -17,8 +17,8 @@ export default function Header() {
 
     return (
         <div className="text-center">
-            <h1 className="text-3xl md:text-5xl">Launch Your Vision and <br /> Amplify  Your Impact with </h1>
-            <h1 className='text-4xl md:text-6xl text-primary-purple font-bold italic transition-opacity'>{serviceList[serviceIndex]}</h1>
+            <h1 className="text-3xl md:text-5xl leading-tight">Launch Your Vision and <br /> Amplify  Your Impact with </h1>
+            <h1 className='text-4xl md:text-6xl mt-1.5 text-primary-purple font-bold italic transition-opacity '>{serviceList[serviceIndex]}</h1>
         </div>
     );
 }

@@ -2,7 +2,7 @@
 export default function NavbarItem({itemName}) {
     return(
         <>
-        <a href="/" className="px-4">{itemName}</a> 
+        <a href="/" className="text-xl px-4">{itemName}</a> 
         </>
     )
 

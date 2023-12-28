@@ -10,7 +10,7 @@ export default function Home() {
         <div className = 'min-h-screen '>
         <Navbar navbarList = {["Home","Contact Us"]}/>
         
-        <div className='grid grid-cols-1 justify-items-center mt-28 gap-y-8 sm:gap-y-10 z-0'>
+        <div className='grid grid-cols-1 justify-items-center mt-28 gap-y-8 sm:gap-y-10 md:gap-y-7 z-0'>
             <Header/>
             <div className='max-w-md'>
                 <img src={rocketSvg} alt="" className=''/>
