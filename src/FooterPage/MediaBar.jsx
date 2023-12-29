@@ -6,7 +6,7 @@ import MediaIcon from './MediaIcon'
 export default function MediaBar() {
 
     return (
-     <div className='flex items-center gap-x-2'>
+     <div className='flex items-center gap-x-2 lg:gap-x-4'>
      <MediaIcon icon ={LinkedInSvg}/>
      <MediaIcon icon ={Tiktok}/>
      <MediaIcon icon ={Twitter}/>

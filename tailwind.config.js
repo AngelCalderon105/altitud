@@ -9,7 +9,7 @@ export default {
     },
     colors: {
       'primary-purple': '#9191FF',
-      'dark-blue': '#000F26',
+      'dark-blue': '#2672FF',
       'footer-bg': '#04091B',
       'light-blue': '#B4DBFF'
     },
