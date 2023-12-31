@@ -10,21 +10,23 @@ export default function Home() {
         <div className = 'min-h-screen '>
         <Navbar navbarList = {["Home","Contact Us"]}/>
         
-        <div className='grid grid-cols-1 justify-items-center mt-28 gap-y-8 sm:gap-y-10 md:gap-y-7 z-0'>
+        <div className='grid grid-cols-1 md:grid-cols-4 justify-items-center mt-28 gap-y-8 sm:gap-y-10 md:gap-y-7 z-0'>
+            <div className='md:col-span-2'>
             <Header/>
-            <div className='max-w-md'>
+            </div>
+            <div className='max-w-md md:col-span-2 md:row-span-4 '>
                 <img src={rocketSvg} alt="" className=''/>
             </div>
-            <div className='sm:w-3/4 md:w-full'>
+            <div className='sm:w-3/4 md:w-full md:col-span-2'>
                 <SubHeader text = {"Our team specializes in creating effective and engaging websites that will resonate with your audience"} />
             </div>    
-            <div className=''>
+            <div className='order-5'>
             <FormButton text = "Tell us about your website"/>
             </div>
-            <div className=''>        
+            <div className='order-4'>        
                 <ActionButton text = "Contact Us"/>   
             </div>
-            <a href="" className=' motion-safe:animate-float'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <a href="" className=' motion-safe:animate-float md:col-span-4 order-6'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                     </svg>
             </a>
