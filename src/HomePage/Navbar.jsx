@@ -4,7 +4,7 @@ import NavbarItem from './NavbarItem'
 export default function NavBar({navbarList}) {
     return (
         <nav className='bg-dark-blue md:bg-transparent fixed top-0 left-0 w-full z-50 md:flex '>
-            <div className=' flex justify-center text-2xl'> 
+            <div className='flex justify-center items-center md:justify-start '>
                 <Logo/>
             </div>
             <div className='absolute top-3.5 left-3 w-8 md:hidden'>
@@ -13,7 +13,7 @@ export default function NavBar({navbarList}) {
                 </svg>
             </div>
         
-            <div className='hidden md:flex md:justify-between md:w-full'>
+            <div className=' hidden md:flex md:justify-between md:w-full'>
                 <ul className='flex items-center text-lg'>
                     {navbarList.map((item,index) =>(
                     <li key = {index}> 
