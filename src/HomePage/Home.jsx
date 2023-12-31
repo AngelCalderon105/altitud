@@ -7,7 +7,7 @@ import FormButton from '../Components/FormButton'
 
 export default function Home() {
     return (
-        <div className = 'min-h-screen '>
+        <div className = 'font-times text-white min-h-screen mx-5'>
         <Navbar navbarList = {["Home","Contact Us"]}/>
         
         <div className='grid grid-cols-1 justify-items-center mt-28 gap-y-8 sm:gap-y-10 md:gap-y-7 z-0'>
