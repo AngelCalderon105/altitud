@@ -5,7 +5,7 @@ export default function MenuSection({menuList}) {
     return (
         <ul>
             {menuList.map((item,index) => (
-                <li key = {index} className="py-0.5">
+                <li key = {index} className="py-1 ">
                     {index === 0 ? <MenuTitle sectionTitle = {item}/> :
                    <MenuLink directoryLink = {item}/>}
                    

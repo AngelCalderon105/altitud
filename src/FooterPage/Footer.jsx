@@ -4,25 +4,27 @@ import MediaBar from './MediaBar'
 import FooterMenu from './FooterMenu'
 export default function Footer () { 
     return ( 
-        <div className='bg-footer-bg  text-white font-times flex flex-col p-4 md:p-10'>
-    <div className=' flex flex-col rounded-t-3xl'>      
-       <div className='py-5 '>
-        <div className='flex justify-start items-center gap-x-2 lg:gap-x-4 py-5' >
-            <div className='text-2xl sm:text-4xl md:text-5xl lg:text-5xl '>
+        <div className='bg-footer-bg  text-white font-times flex flex-col p-4 sm:p-8 lg:pl-20 md:pt-10 rounded-t-3xl'>
+    <div className=' flex flex-col justify-between lg:flex-row '>      
+       <div className='flex flex-col'>
+        <div className='flex justify-start items-center gap-x-2 lg:gap-x-4 pb-5' >
+            <div className='text-2xl sm:text-3xl '>
                 <Logo/>
             </div>
-            <img src= {Divider} alt="divider" className='h-10' />
-            <p className='text-light-blue text-xs sm:text-base md:text-lg lg:text-xl w-6/12 sm:w-5/12 md:w-60 lg:w-72 '>
-                Receive the undivided attention and care your problems require
+            <img src= {Divider} alt="divider" className='h-10 lg:w-2 lg:h-14' />
+            <p className='text-light-blue text-xs sm:text-sm  w-6/12 sm:w-4/12 md:w-3/12 lg:w-6/12 '>
+            Receive the undivided attention and care that your problems need
             </p>
         </div>
-        <div className='w-28 sm:w-36 lg:w-48'>
+        <div className='w-28 sm:w-36 lg:w-40 pb-5'>
             <MediaBar/>
         </div>
         </div>
+        <div className='w-full'>
         <FooterMenu/>
+        </div>
     </div>
-    <p className='text-xs text-center lg:text-lg pt-10'>&copy; 2023 Altitud All Rights Reserved.</p>
+    <p className='text-xs text-center lg:text-left lg:text-lg pt-10'>&copy; 2023 Altitud All Rights Reserved.</p>
     </div>
     )
 }
