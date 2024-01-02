@@ -8,8 +8,8 @@ export default function Footer () {
     <div className=' flex flex-col justify-between lg:flex-row '>      
        <div className='flex flex-col'>
         <div className='flex justify-start items-center gap-x-2 lg:gap-x-4 pb-5' >
-            <div className='text-2xl sm:text-3xl '>
-                <Logo/>
+            <div className=' '>
+                <Logo logoSize ="w-10" textSize='text-2xl sm:text-3xl'/>
             </div>
             <img src= {Divider} alt="divider" className='h-10 lg:w-2 lg:h-14' />
             <p className='text-light-blue text-xs sm:text-sm  w-6/12 sm:w-4/12 md:w-3/12 lg:w-6/12 '>
