@@ -7,7 +7,7 @@ import FormButton from '../Components/FormButton'
 
 export default function Home() {
     return (
-        <div className = ' md:mx-8'>
+        <div className = ' md:mx-8 my-8'>
         <Navbar navbarList = {["Home","Contact Us"]}/>
         <div className='flex justify-center'>
             <div className='grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 justify-items-center mt-36 gap-y-8 md:gap-y-5 lg:gap-y-8 gap-x-4 sm:gap-y-10  z-0  max-w-3xl lg:max-w-7xl'>

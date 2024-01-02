@@ -4,7 +4,7 @@ import MediaBar from './MediaBar'
 import FooterMenu from './FooterMenu'
 export default function Footer () { 
     return ( 
-        <div className='bg-footer-bg  text-white font-times flex flex-col p-4 sm:p-8 lg:pl-20 md:pt-10 rounded-t-3xl'>
+        <div className='bg-dark-blue  text-white font-times flex flex-col p-4 sm:p-8 lg:pl-20 md:pt-10 rounded-t-3xl'>
     <div className=' flex flex-col justify-between lg:flex-row '>      
        <div className='flex flex-col'>
         <div className='flex justify-start items-center gap-x-2 lg:gap-x-4 pb-5' >

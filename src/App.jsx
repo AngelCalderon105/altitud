@@ -5,7 +5,7 @@ import Footer from './FooterPage/Footer'
 function App() {
 
   return (
-    <div className='font-times text-white mx-5'>
+    <div className='font-times text-white '>
       <Home/>
       <Footer/>
     </div>

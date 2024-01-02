@@ -9,7 +9,8 @@ export default {
     },
     colors: {
       'primary-purple': '#9191FF',
-      'dark-blue': '#000F26'
+      'dark-blue': '#000F26',
+      'light-blue': '#B4DBFF'
     },
     animation: {
       'float': 'float 2s infinite',
