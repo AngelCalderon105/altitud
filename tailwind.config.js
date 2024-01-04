@@ -10,7 +10,9 @@ export default {
     colors: {
       'primary-purple': '#9191FF',
       'dark-blue': '#000F26',
-      'light-blue': '#B4DBFF'
+      'light-blue': '#B4DBFF',
+      'lightest-blue' : '#DFF0FF',
+      'purple-blue' : '#3535FF'
     },
     animation: {
       'float': 'float 2s infinite',
